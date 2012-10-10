@@ -1,0 +1,201 @@
+/** Common inner content*/
+
+.innerContainer{
+	background: #3386B6;
+	margin-left: 50px;
+	margin-right: 50px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	min-width: 800px;
+	max-width: 1300px;
+	padding-left: 50px;
+	padding-right: 50px;	
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+
+/****/
+
+/** For main head */
+.n1 {
+	
+	background: #3386B6;
+	background-size: 60px;
+	/*color: #FFF;*/
+	cursor: default;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.1)
+		50% ), to(rgba(0, 0, 0, 0.07) 50% ) );
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+}
+
+.container {
+	background-image: url(../img/s2.png);
+}
+
+/**Navigation part **/
+nav.primary {
+	background: #FFE27F;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+nav.main {
+	font-size: 21px;
+	background-color: #FFE27F;
+	background-position: -10% 0;
+}
+
+
+/** Navigation part end**/
+
+/** Footer start **/
+
+footer {
+	background-color: #3386B6;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+	text-align: left;
+	height: auto;
+	background: #3386B6;
+	background-size: 60px;
+	/*color: #FFF;*/
+	cursor: default;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.1)
+		50% ), to(rgba(0, 0, 0, 0.07) 50% ) );
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	padding-bottom: 24px;
+}
+
+div.footerNav {
+	padding: 25px 0 0 0;
+	float: right;
+	width: 66%;
+}
+
+nav.footerNavDetail {
+	width: 22%;
+	display: inline-block;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+
+div.logo {
+	display: inline-block;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 2%;
+	height: auto;
+}
+
+.containerFooter{
+	height: 200px;
+	background-image: url(../img/s1.png); 
+	background-position: -285px -60px;
+}
+/** Footer End **/
+
+/**Content Body**/
+.content {
+	background: white;
+	background-size: 60px;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.1)
+		50% ), to(rgba(0, 0, 0, 0.07) 50% ) );
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.07) 50% );
+}
+
+.contentBody {
+	background-color: white;
+	
+}
+
+/**Content Body End **/
+
+/**For Image Slider**/
+#slider-nav {
+	margin-top: 1em;
+}
+
+#slider-nav button {
+	padding: 1em;
+	margin-right: 1em;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.slider {
+	width: inherit;
+	height: 300px;
+	overflow: scroll;
+}
+
+.slider ul {
+	width: 10000px;
+	list-style: none;
+}
+
+.slider li {
+	float: left;
+}
+
+/**  End For Image Slider **/
+hr {
+	display: block !important;
+	clear: both !important;
+	float: none !important;
+	border: none;
+	border-bottom: 1px dotted #CCC;
+	width: 98%;
+	height: 1px;
+	margin: 0 0 2em 0;
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+}
+
+label {
+	font-family: proxima-nova-n6, proxima-nova, sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+	color: #FADC76;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+	margin: 0 0 3px 0;
+	display: block;
+}
+
+input[type="search"] {
+	border-top: 1px solid #7C7C7C;
+	border-left: 1px solid #C3C3C3;
+	border-right: 1px solid #C3C3C3;
+	border-bottom: 1px solid #DDD;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	text-indent: .5em;
+	padding-top: 2px;
+}
